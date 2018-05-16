@@ -1,0 +1,22 @@
+{
+  "name": "react-component-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnlearnFE/Create_React_Component_tool.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnlearnFE/Create_React_Component_tool/issues"
+  },
+  "homepage": "https://github.com/cnlearnFE/Create_React_Component_tool#readme",
+  "devDependencies": {
+    "webpack": "^4.8.3"
+  }
+}
