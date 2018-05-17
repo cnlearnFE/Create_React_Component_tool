@@ -1,27 +1,20 @@
-const fs = require("fs")
-const path = require("path");
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-
-let entry = {}
-let files = fs.readdirSync("./src")
-for(let i = 0; i < files.length; i ++){
-    if (fs.statSync(`./src/${files[i]}`).isDirectory()){
-        entry[files[i]] = `./src/${files[i]}/index.js`
-    }
-}
-entry["index"] = "./src/index.js"
-
+const path = require('path')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 const patchconfig = {
-    entry: entry,
+    entry: {
+        index: './src/index.js'
+    },
     output: {
-        filename: '[name]/index.js',
-        path: path.resolve(__dirname, 'dist')
+        filename: '[name].js',
+        path: path.resolve(__dirname, 'lib'),
+        libraryTarget: 'umd',
+        globalObject: 'this'
     }
 }
 
 const plugins = {
     plugins: [
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin(['lib'])
     ],
 }
 
