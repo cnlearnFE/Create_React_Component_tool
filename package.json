@@ -1,8 +1,8 @@
 {
   "name": "react-component-tool",
   "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
+  "description": "React Component development tool",
+  "main": "index.js",
   "scripts": {
     "build": "webpack"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/cnlearnFE/Create_React_Component_tool.git"
   },
-  "author": "",
+  "author": "cnlearnFE",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cnlearnFE/Create_React_Component_tool/issues"
