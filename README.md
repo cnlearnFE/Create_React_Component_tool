@@ -1,4 +1,4 @@
-# [Create_React_Component_tool](https://github.com/cnlearnFE) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cnlearnFE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react-component-devtool)
+# [Create_React_Component_tool](https://github.com/cnlearnFE) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cnlearnFE) [![npm version](https://img.shields.io/npm/v/react-component-devtool.svg?style=flat)](https://www.npmjs.com/package/react-component-devtool)
 
 
 > 关于 learnFE
